@@ -1,0 +1,60 @@
+/*header CSS-----------------------------------------------------*/
+header{width: 100%;background-color: #fff;box-shadow: 0 2px 5px rgba(0,0,0,0.05);position: fixed;top : 0;left: 0;z-index: 1000;}
+header .wrap{padding : 16px 0;align-items: center;}
+
+@media screen and (max-width: 480px){
+    
+}
+
+
+
+/*section01 CSS-----------------------------------------------------*/
+.sec01{margin-top: 80px;}
+.sec01 .tit_con{background-image: url("../image/sec01_bg.jpg");}
+
+.sec01 .keypoint li{display : inline-block;vertical-align: top;width: 160px;height: 160px;border : 1px solid #616161;border-radius : 50%;margin: 0 16px;cursor: pointer;}
+.sec01 .keypoint li:nth-child(-n+3){margin-bottom: 32px;}
+.sec01 .keypoint li p{transition: opacity 0.3s;width: 120px;}
+.sec01 .keypoint li .active{opacity: 0;}
+.sec01 .keypoint li:hover p{opacity: 0;}
+.sec01 .keypoint li:hover .active{opacity: 1;}
+
+@media screen and (max-width: 860px){
+    .sec01 .keypoint li{display: block;width: 100%;height: auto;border : 0;border-radius: 0;margin: 0;margin-bottom: 64px;cursor: inherit;}
+    .sec01 .keypoint li:nth-child(-n+3){margin-bottom: 64px;}
+    .sec01 .keypoint li:last-child{margin-bottom: 0;}
+    .sec01 .keypoint li p{width: 100%;position: relative;top:0;left: 0;transform: translate(0,0);opacity: 1 !important;transition: none;}
+    .sec01 .keypoint li .active{margin-top: 8px;}
+}
+
+
+
+/*section02 CSS-----------------------------------------------------*/
+.sec02 .tit_con{background-image: url("../image/sec02_bg.jpg");}
+.sec02 .content01 .wrap{align-items: center;}
+.sec02 .content02 .img_con img{display: block;}
+
+@media screen and (max-width: 480px){
+    
+}
+
+
+
+/*section03 CSS-----------------------------------------------------*/
+.sec03 .tit_con{background-image: url("../image/sec03_bg.jpg");}
+.sec03 .flex_con .txt_con{text-align: center;}
+
+@media screen and (max-width: 480px){
+    
+}
+
+
+
+/*footer CSS-----------------------------------------------------*/
+footer{background-color : #616161; padding: 32px 0 130px;}
+
+@media screen and (max-width: 480px){
+    footer{ padding: 32px 0 57px;}
+}
+
+
